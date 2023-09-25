@@ -1,0 +1,139 @@
+.header {
+    
+    color: rgb(157, 243, 131);
+    text-align: center;
+    padding: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+
+}
+
+h1{
+    text-shadow: 3px 3px 3px #9b9b9b; 
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.flex-item{
+    flex: 1;
+    margin-left: 30px;
+    border: 4px dotted #70f090;
+    padding: 1rem;
+    min-width: 265px;
+    text-align: center
+}
+
+.footer{
+    background-color: #f3f2f2;
+    color: #818181;
+    text-align: center;
+    padding: 1rem;
+    
+   
+}
+
+body{
+    background-color: #dfffdb;
+    margin-top: 5%;
+
+}
+
+
+.menu {
+    background-color:rgb(140, 224, 115);
+    color:white;
+    text-decoration: none;
+
+    border: 9px var(--cor-teste1);
+    padding: 16px;
+
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 90px rgb(163, 163, 163);
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    border-bottom-style: solid;
+    border-bottom-color:white;
+    border-bottom-width: 5px;
+    box-shadow: 2px 2px 2px gray;
+    
+}
+
+.menu:hover {
+    background-color: rgb(132, 207, 109);
+    color: white;
+}
+
+nav{
+    text-align: center;
+}
+
+li, ul{
+    display: inline;
+}
+.paragindex{
+    text-align: justify;
+    color: #818181;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+}
+
+
+h2{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #818181;
+    text-align: left;
+    margin-left: 2%;
+}
+
+img{
+    border: 2px solid #818181;
+height: 200px;
+ width: 200px;
+}
+
+
+.gridpgs{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    margin-top: 2%;
+
+}
+
+.meio{
+    background-color: #ccffc5;
+    border-radius: 5%;
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+    p{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 2%;
+        margin-right: 2%;
+        font-family: Arial, Helvetica, sans-serif;
+        text-indent: 2%;
+    }
+
+    h3{
+
+        text-align: center;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif
+    }
+
+    .imgpgs{
+     text-align: center;
+     margin-bottom: 2%;
+    }
+    
