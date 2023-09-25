@@ -101,12 +101,6 @@ height: 200px;
 }
 
 
-.gridpgs{
-    display: grid;
-    grid-template-columns: 25% 50% 25%;
-    margin-top: 2%;
-
-}
 
 .meio{
     background-color: #ccffc5;
