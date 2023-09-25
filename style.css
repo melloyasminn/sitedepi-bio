@@ -49,12 +49,12 @@ body{
     color:white;
     text-decoration: none;
 
-    border: 9px var(--cor-teste1);
+    border: 9px white;
     padding: 16px;
 
     font-size: 18px;
     border-radius: 10px;
-    box-shadow: 90px rgb(163, 163, 163);
+    box-shadow: 9px rgb(163, 163, 163);
     text-align: center;
     padding: 15px;
     text-decoration: none;
