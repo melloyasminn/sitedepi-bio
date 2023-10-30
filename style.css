@@ -52,7 +52,7 @@ body {
     text-decoration: none;
 
     border: 9px white;
-    padding: 16px;
+    
 
     font-size: 18px;
     border-radius: 10px;
@@ -135,6 +135,24 @@ h3 {
     margin-bottom: 2%;
 }
 
+@media (max-width: 930px) {
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .menu {
+        padding: 10px;
+        display: flex;
+        margin: 10px !important;
+    }
+    header nav ul li {
+        margin-top: 10px;
+    }
+}
+
 @media (max-width: 900px) {
     nav ul {
         display: flex;
@@ -145,24 +163,27 @@ h3 {
 
     .menu {
         padding: 10px;
-        display: inline-block;
-        margin: 2px !important;
+        display: flex;
+        margin: 8px !important;
     }
 }
+
+
 
 @media (max-width: 400px) {
     nav ul {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        
 
     }
 
     .menu {
         padding: 5px;
         display: inline-block;
-        margin: 1px !important;
-        
+        margin: 9px !important;
+        font-size: 12px;
     }
 }
 
