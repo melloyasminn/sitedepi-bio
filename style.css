@@ -4,7 +4,7 @@
     text-align: center;
     padding: 1rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
+    
 
 
 }
@@ -54,7 +54,7 @@ body{
 
     font-size: 18px;
     border-radius: 10px;
-    box-shadow: 9px rgb(163, 163, 163);
+    box-shadow: 9px 2px rgb(163, 163, 163);
     text-align: center;
     padding: 15px;
     text-decoration: none;
@@ -130,4 +130,49 @@ height: 200px;
      text-align: center;
      margin-bottom: 2%;
     }
-    
+
+@media (max-width: 400px) {
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  .menu{
+    padding: 0;
+    display: inline-block;
+    margin: 20px 20px 20px 20px !important;
+  }}
+
+  @media screen and (min-width: 801px) {
+   p, h2 {
+      font-size: 19px;
+    } h1 {
+       font-size:70px !important;
+     }
+  }
+  @media screen and (max-width: 800px) {
+    p, h2 {
+      font-size: 16px !important;
+    } h1 {
+       font-size: 50px ;
+     }
+    }
+
+
+  @media screen and (min-width: 401px) {
+    p, h2 {
+       font-size: 16px;
+     }
+     h1 {
+         font-size: 50px;
+      }
+    }
+    @media screen and (max-width: 400px) {
+        p, h2 {
+            font-size: 14px ;
+        }
+        h1{
+            font-size: 40px;
+        }
+    }
