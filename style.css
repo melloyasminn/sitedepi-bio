@@ -1,3 +1,5 @@
+
+/*Aqui está a header*/
 .header {
 
     color: rgb(157, 243, 131);
@@ -30,6 +32,7 @@ h1 {
     text-align: center
 }
 
+/*Aqui está o rodapé*/
 .footer {
     background-color: #f3f2f2;
     color: #818181;
@@ -38,14 +41,14 @@ h1 {
 
 
 }
-
+/*Formaração do body*/
 body {
     background-color: #dfffdb;
     margin-top: 5%;
 
 }
 
-
+/*Formatação da nav*/
 .menu {
     background-color: rgb(140, 224, 115);
     color: white;
@@ -81,6 +84,7 @@ ul {
     display: inline;
 }
 
+/*Parágrafo da página inicial*/
 .paragindex {
     text-align: justify;
     color: #818181;
@@ -89,7 +93,7 @@ ul {
     margin: 15px;
 }
 
-
+/*Formatação dos subtítulos*/
 h2 {
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
@@ -98,14 +102,10 @@ h2 {
     margin-left: 2%;
 }
 
-img {
-    border: 2px solid #818181;
-
-
-}
 
 
 
+/*BG das páginas com conteúdo*/
 .meio {
     background-color: #ccffc5;
     border-radius: 5%;
@@ -114,6 +114,7 @@ img {
     margin-right: 15%;
 }
 
+/*Aqui está a formatação dos parágrafos*/
 p {
     margin-top: 0;
     margin-bottom: 0;
@@ -123,6 +124,7 @@ p {
     text-indent: 2%;
 }
 
+/*Texto acima das imagens*/
 h3 {
 
     text-align: center;
@@ -130,11 +132,17 @@ h3 {
     font-family: Arial, Helvetica, sans-serif
 }
 
+/*Formatação das imagens*/
 .imgpgs {
     text-align: center;
     margin-bottom: 2%;
 }
 
+img {
+    border: 2px solid #818181;
+}
+
+/*Media queries*/
 @media (max-width: 930px) {
     nav ul {
         display: flex;
